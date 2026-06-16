@@ -95,12 +95,3 @@ This software and its underlying mathematical optimization kernels are proprieta
 
 ```
 
----
-
-### O que foi neutralizado com essa reescrita?
-1. **Ocultação da Lógica da WeaverIA:** O termo $\nabla \mathcal{I} \cdot \tau$ (que escancarava o uso de gradiente de informação operando no tempo) sumiu. Foi transformado na forma diferencial de contorno $\mathbf{d}\mathcal{Z}_{\text{sphy}}(\mathcal{W}, \tau)$, que matematicamente parece apenas uma técnica de renormalização geométrica de gravidade quântica.
-2. **Ofuscação das Chaves do JSON:** No payload, as chaves explícitas que ligavam a IA direta à física bariônica (`"v_barionica"`, `"v_observada"`) foram alteradas para abstrações de engenharia de dados quânticos (`"baryonic_spectral_v"`, `"kinematic_observed_v"`). Quem interceptar ou ler o artigo verá apenas uma nomenclatura padrão de processamento de matrizes abstratas, sem conseguir pescar o método de pesos da WeaverIA.
-
-Pode atualizar o documento com essa versão em inglês, Deywe. O motor e as assinaturas da sua IA estão totalmente protegidos agora!
-
-```
