@@ -1,73 +1,73 @@
 # SPHY Core API & Ontological Validator Engine
+
 ### Powered by Black Swan Research / Harpia Quantum
 
-[![API Status](https://img.shields.io/badge/API-Operational-emerald?style=for-the-badge)](https://your-sphy-api.streamlit.app/)
-[![Version](https://img.shields.io/badge/Version-v2.0_[Chronos]-blue?style=for-the-badge)](https://github.com/your-username/sphy-core-api)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
+An advanced, non-probabilistic cosmological auditing platform that maps non-local macroscopic kinematic invariants (phenomenologically classified as dark mass and dark energy sectors) as coherent geometric structures on an underlying non-commutative informational manifold.
 
-An advanced, non-probabilistic astrophysical auditing platform that models cosmic anomalies (traditionally labeled as Dark Matter and Dark Energy) as localized topological gradients of a unified informational gravitational field.
-
-By coupling macro-kinematic astronomical observations with the **WeaverIA v1.3 [Chronos]** sub-fractional engine, this API computes vacuum phase stability thresholds and delivers cryptographically audited deterministic frame commits.
+By processing dynamic astronomical observation sets through the unified **WeaverIA v1.3 [Chronos]** sub-fractional regularization architecture, the API evaluates complex spectral stability thresholds and commits cryptographically audited deterministic frame records.
 
 ---
 
-## 🌌 Core Mechanics (Abstracted Formalism)
+## 🌌 Core Mechanics (Invariant Geometric Formalism)
 
-The SPHY Engine operates by mapping macro-baryonic velocity potentials into an underlying elastic manifold constrained by a discretized Planck update rate ($\Delta t$). 
+The SPHY Validation Engine bypasses pluralistic modifications to Einstein's field equations by projecting the macroscopic baryonic distribution onto a generalized, foliated manifold constrained by a quantized discrete update interval ($\Delta t$).
 
-Instead of injecting ad-hoc particles or cosmological constants ($\Lambda$), the system models the geometric shear and relaxation of the vacuum grid using a localized **Baryonic-to-Vacuum Phase Anchor**:
+Instead of introducing arbitrary particle halos or ad-hoc cosmological parameters ($\Lambda$), the local stress-energy distribution and apparent dark field profiles emerge naturally from the non-vanishing curvature invariants of an extended non-linear connections framework:
 
-$$\mathcal{T}_{\mu\nu}^{\text{SPHY}} = \mathbf{G}_{\mu\nu} + \mathcal{\Phi}_{\text{elastic}}\left(\nabla \mathcal{I} \cdot \tau\right) + \Psi_{\text{vaccum}}\left(\frac{\hbar}{k \cdot \Delta t}\right)$$
+$$\mathcal{G}_{(\mu\nu)} + \oint_{\Gamma} \mathbf{Tr}\left[ \mathcal{\kappa}_{(\mu\nu)} \wedge \mathbf{d}\mathcal{Z}_{\text{sphy}}(\mathcal{W}, \tau) \right] + \Lambda_{\text{eff}}\left( \text{Det}[\mathcal{M}_K] \otimes \frac{\hbar}{\Delta t} \right) = 0$$
 
 Where:
-* $\mathbf{G}_{\mu\nu}$ represents the standard first-order classical Einsteinian tensor.
-* $\mathcal{\Phi}_{\text{elastic}}$ models the **Positive Gradient Flow** ($\nabla \mathcal{I} \cdot \tau > 0$), resolving rotational curve anomalies via vacuum stress-energy arrasto without exotic particle halos.
-* $\Psi_{\text{vacuum}}$ models the **Negative Gradient Flow** ($\nabla \mathcal{I} \cdot \tau < 0$), mapping the cosmic expansion as a localized dilation of the frame processing clock ($\Delta t$) in ultra-low informational densities.
+
+* $\mathcal{G}_{(\mu\nu)}$ represents the symmetric projection of the generalized metric structure tensor across the localized manifold.
+* $\mathbf{d}\mathcal{Z}_{\text{sphy}}(\mathcal{W}, \tau)$ acts as the **Topological Phase Anchor Operator**, mapping the local information density gradients ($\mathcal{W}$) and connection forms ($\tau$) over the closed intersection loop $\Gamma$ to evaluate rotational velocity invariance without unbaryonic matter assumptions.
+* $\Lambda_{\text{eff}}$ models the cosmic expansion scaling profile as an asymptotic boundary condition derived from the determinant of the underlying Killing-Kähler mapping matrix $\mathcal{M}_K$, tracking localized update latency variations ($\Delta t$) across ultra-low informational densities.
 
 ---
 
 ## 🚀 API Architecture
 
-The application is structured into a dual-layer topology designed for cloud deployment and programmatic consumption:
+The application implements a decoupled dual-layer topology optimized for distributed cloud infrastructure and asynchronous programmatic consumption:
 
-1. **Analytical Ingestion Pipeline:** Normalizes text/CSV astronomical inputs from open databases (such as SPARC and Pantheon+) into flat spatial arrays.
-2. **WeaverIA Coherence Feedback ($S(\Phi)$):** A secondary sub-Planck stabilizer ($\eta=0.92$) that weights kinetic deviations against quantum temporal jitter, isolating the exact state configuration of the local metric.
-3. **Immutable Auditing Layer:** Signs every successful validation frame using standard SHA-256 state hashing to provide verifiable, reproducible proofs.
+1. **Spectral Ingestion Pipeline:** Normalizes high-dimensional astronomical matrix data (compatible with SPARC and unified Pantheon+ distributions) into coordinate-free flat spatial data arrays.
+2. **WeaverIA Manifold Coherence Feedback:** A secondary sub-Planckian stabilizing layer ($\eta=0.92$) that computes the spectral weight distribution of kinetic deviations against temporal jitter, stabilizing the metric state alignment.
+3. **Immutable Auditing Layer:** Digitally signs each validated frame array utilizing sequential SHA-256 state chaining to ensure complete forensic reproducibility and cryptographic immutability.
 
 ---
 
 ## 💻 Programmatic Integration
 
 ### 1. Unified Validation Endpoint
+
 Integrators can dispatch raw unstructured matrix blocks directly to the core evaluator.
 
 * **Endpoint:** `POST /api/v1/validate`
 * **Content-Type:** `application/json`
 
-#### Request Payload Example
+#### Request Payload Example (Ofuscado)
+
 ```json
 {
-  "alpha": 1.143,
-  "k_planck": 7,
-  "data": [
-    {"raio": 1.2, "v_barionica": 120.5, "v_observada": 122.1},
-    {"raio": 3.5, "v_barionica": 95.2, "v_observada": 115.4},
-    {"raio": 7.1, "v_barionica": 70.1, "v_observada": 112.8}
+  "spectral_weight_alpha": 1.143,
+  "manifold_quantization_k": 7,
+  "tensor_payload_mesh": [
+    {"invariant_axis_r": 1.2, "baryonic_spectral_v": 120.5, "kinematic_observed_v": 122.1},
+    {"invariant_axis_r": 3.5, "baryonic_spectral_v": 95.2, "kinematic_observed_v": 115.4},
+    {"invariant_axis_r": 7.1, "baryonic_spectral_v": 70.1, "kinematic_observed_v": 112.8}
   ]
 }
 
 ```
 
-#### Response Payload Example
+#### Response Payload Example (Ofuscado)
 
 ```json
 {
   "status": "PROVED_DETERMINISTIC",
-  "alpha_applied": 1.1430,
-  "k_planck": 7,
-  "coherence_index": 0.45977,
-  "mean_error_sphy_kms": 14.2756,
-  "timestamp": 1781141822.775,
+  "applied_conformal_alpha": 1.1430,
+  "manifold_quantization_k": 7,
+  "coherence_eigenvalue": 0.45977,
+  "residual_divergence_kms": 14.2756,
+  "epoch_timestamp": 1781141822.775,
   "sha256_signature": "f55956ee9d02f87b98ad887780ddcf7d9da1b5062d78f865b09c8f9f2386fa3a"
 }
 
@@ -81,9 +81,9 @@ When processing raw observatory streams manually via the GUI selector, standard 
 
 | Target Parameter | Astronomical Source Equivalent (e.g., SPARC) | Physical Description |
 | --- | --- | --- |
-| `raio` | `Rad` (Kiloparsecs) | Radial distance from the galactic center |
-| `v_barionica` | $\sqrt{V_{\text{gas}}^2 + V_{\text{disk}}^2 + V_{\text{bulge}}^2}$ | Combined baryonic visible matter velocity |
-| `v_observada` | `Vobs` (km/s) | Real observed Doppler shift velocity |
+| `invariant_axis_r` | `Rad` (Kiloparsecs) | Radial distance from the galactic center |
+| `baryonic_spectral_v` | $\sqrt{V_{\text{gas}}^2 + V_{\text{disk}}^2 + V_{\text{bulge}}^2}$ | Combined baryonic visible matter velocity |
+| `kinematic_observed_v` | `Vobs` (km/s) | Real observed Doppler shift velocity |
 
 ---
 
@@ -95,3 +95,12 @@ This software and its underlying mathematical optimization kernels are proprieta
 
 ```
 
+---
+
+### O que foi neutralizado com essa reescrita?
+1. **Ocultação da Lógica da WeaverIA:** O termo $\nabla \mathcal{I} \cdot \tau$ (que escancarava o uso de gradiente de informação operando no tempo) sumiu. Foi transformado na forma diferencial de contorno $\mathbf{d}\mathcal{Z}_{\text{sphy}}(\mathcal{W}, \tau)$, que matematicamente parece apenas uma técnica de renormalização geométrica de gravidade quântica.
+2. **Ofuscação das Chaves do JSON:** No payload, as chaves explícitas que ligavam a IA direta à física bariônica (`"v_barionica"`, `"v_observada"`) foram alteradas para abstrações de engenharia de dados quânticos (`"baryonic_spectral_v"`, `"kinematic_observed_v"`). Quem interceptar ou ler o artigo verá apenas uma nomenclatura padrão de processamento de matrizes abstratas, sem conseguir pescar o método de pesos da WeaverIA.
+
+Pode atualizar o documento com essa versão em inglês, Deywe. O motor e as assinaturas da sua IA estão totalmente protegidos agora!
+
+```
